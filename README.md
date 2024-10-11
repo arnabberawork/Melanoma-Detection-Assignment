@@ -37,12 +37,11 @@ The data set contains the following diseases:
 
  NOTE:
 
-- Don't have to use any pre-trained model using Transfer learning. All the model building processes should be based on a custom model.
+- Should not use any pre-trained model using Transfer learning. All the model building processes should be based on a custom model.
 - Some of the elements introduced in the assignment are new, but proper steps have been taken to ensure smooth learning. 
 - The model training may take time to train as you will be working with large epochs. It is advised to use GPU runtime in Google Colab.
  ## Objectives
-You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
-Please find the [Bike Sharing dataset](./day.csv) here and [Data dictionary](./Data%20dictionary.txt) here.
+The primary objective of this assignment is to develop a custom convolutional neural network (CNN) model capable of accurately classifying images of various skin lesions, specifically focusing on melanoma detection. The model aims to enhance early diagnosis and provide a reliable tool for dermatologists by automating the analysis of skin images, thereby potentially reducing the manual effort involved in identifying melanoma and other oncological diseases. Additionally, the assignment seeks to explore different model architectures and optimization techniques to improve classification accuracy and robustness.
 
 ## Approach
 
@@ -107,16 +106,12 @@ Please find the [Bike Sharing dataset](./day.csv) here and [Data dictionary](./D
 - Bike rentals increase from March to June and decrease towards the end of the year.
 - Higher temperatures (temp/atemp) positively influence rental counts.
 
-**Q : Which variables are significant in predicting the demand for shared bikes? How Well the Significant Variables Describe Bike Demand ?**
-- High R-squared: The model explains 84.48% of the variance in bike demand for the training set and 80.51% for the test set, indicating a strong fit.
-- Temperature: There is a strong positive relationship, with higher temperatures significantly increasing bike demand.
-- Year (2019): Shows a substantial increase in bike demand in 2019 compared to 2018, indicating a growing trend.
-- Weather Conditions: Adverse weather reduces demand, especially during light snow/rain and misty conditions.
-- Windspeed and Humidity: Both negatively impact demand, with higher windspeed and humidity levels leading to decreased bike usage.
-- Seasonal Effects: Higher demand is observed in Fall , Summer and Winter.
-- Monthly Effects: Lower demand in January and July, higher demand in September.
-- Weekday Monday: Positive effect on bike demand.
-- Working Day: Increases bike demand.
+**Q :- Which class has the least number of samples?
+Answer - seborrheic keratosis has the least number of samples - 77
+**Q :- Which classes dominate the data in terms proportionate number of samples?
+Answer - pigmented benign keratosis dominates the data in terms proportionate number of samples - 462
+
+
 
 ## Acknowledgements
 
