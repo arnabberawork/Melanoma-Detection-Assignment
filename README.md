@@ -1,5 +1,5 @@
-# Boom Bikes Sharing Case Study
-> Case Study of Linear Regression model for a US bike-sharing provider BoomBikes.
+# Melanoma Detection Assignment
+> Assignment to build a CNN based model which can accurately detect melanoma.
 
 
 ## Table of Contents :
@@ -14,16 +14,32 @@
 
 
 ## Problem Statement
-A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
 
-They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
-- Which variables are significant in predicting the demand for shared bikes.
-- How well those variables describe the bike demands.
+You can download the dataset [here](https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view)
 
-Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
- 
+
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+
+
+The data set contains the following diseases:
+
+Actinic keratosis
+Basal cell carcinoma
+Dermatofibroma
+Melanoma
+Nevus
+Pigmented benign keratosis
+Seborrheic keratosis
+Squamous cell carcinoma
+Vascular lesion 
+
+ NOTE:
+
+Don't have to use any pre-trained model using Transfer learning. All the model building processes should be based on a custom model.
+Some of the elements introduced in the assignment are new, but proper steps have been taken to ensure smooth learning. You must learn from the base code provided and implement the same for your problem statement.
+The model training may take time to train as you will be working with large epochs. It is advised to use GPU runtime in Google Colab.
  ## Objectives
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 Please find the [Bike Sharing dataset](./day.csv) here and [Data dictionary](./Data%20dictionary.txt) here.
