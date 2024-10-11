@@ -65,28 +65,13 @@ The primary objective of this assignment is to develop a custom convolutional ne
 - Step 14: Steps for Further Model Refinement and Optimization
 - Step 15: Model Evaluation
 
-## Technologies Used
-- numpy			: 1.26.4
-- pandas			: 2.2.2
-- seaborn			: 0.13.2
-- matplotlib		: 3.9.0
-- statsmodels		: 0.14.0
-- sklearn			: 1.3.0
-- scipy			: 1.11.1
-- IPython			: 8.15.0
-- ipykernel		: 6.25.0
-- ipywidgets		: 8.0.4
-- jupyter_client	: 7.4.9
-- jupyter_core		: 5.3.0
-- jupyter_server	: 1.23.4
-- jupyterlab		: 3.6.3
-- nbclient			: 0.5.13
-- nbconvert		: 6.5.4
-- nbformat			: 5.9.2
-- notebook			: 6.5.4
-- qtconsole		: 5.4.2
-- traitlets		: 5.7.1
-- conda			: 23.7.4
+## Technologies / Libraries Used
+- numpy : 1.26.4
+- pandas : 2.2.2
+- matplotlib : 3.7.1
+- tensorflow : 2.17.0
+- keras : 3.4.1
+- augmentor : 0.2.12
 
 ## Conclusions
 **From the Exploratory Data Analysis , we can conclude the following -**
