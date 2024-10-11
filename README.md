@@ -6,7 +6,7 @@
 * [Problem Statement](#problem-statement)
 * [Objectives](#objectives)
 * [Approach](#approach)
-* [Technologies / Libraries Used](#technologies-used)
+* [Technologies/Libraries Used](#technologies/libraries-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 * [Glossary](#glossary)
@@ -65,7 +65,7 @@ The primary objective of this assignment is to develop a custom convolutional ne
 - Step 14: Steps for Further Model Refinement and Optimization
 - Step 15: Model Evaluation
 
-## Technologies / Libraries Used
+## Technologies/Libraries Used
 - numpy : 1.26.4
 - pandas : 2.2.2
 - matplotlib : 3.7.1
