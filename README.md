@@ -6,7 +6,7 @@
 * [Problem Statement](#problem-statement)
 * [Objectives](#objectives)
 * [Approach](#approach)
-* [Technologies Used](#technologies-used)
+* [Technologies / Libraries Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 * [Glossary](#glossary)
