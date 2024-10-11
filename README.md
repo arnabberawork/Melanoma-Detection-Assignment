@@ -25,21 +25,21 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 
 The data set contains the following diseases:
 
-Actinic keratosis
-Basal cell carcinoma
-Dermatofibroma
-Melanoma
-Nevus
-Pigmented benign keratosis
-Seborrheic keratosis
-Squamous cell carcinoma
-Vascular lesion 
+- Actinic keratosis
+- Basal cell carcinoma
+- Dermatofibroma
+- Melanoma
+- Nevus
+- Pigmented benign keratosis
+- Seborrheic keratosis
+- Squamous cell carcinoma
+- Vascular lesion 
 
  NOTE:
 
-Don't have to use any pre-trained model using Transfer learning. All the model building processes should be based on a custom model.
-Some of the elements introduced in the assignment are new, but proper steps have been taken to ensure smooth learning. You must learn from the base code provided and implement the same for your problem statement.
-The model training may take time to train as you will be working with large epochs. It is advised to use GPU runtime in Google Colab.
+- Don't have to use any pre-trained model using Transfer learning. All the model building processes should be based on a custom model.
+- Some of the elements introduced in the assignment are new, but proper steps have been taken to ensure smooth learning. 
+- The model training may take time to train as you will be working with large epochs. It is advised to use GPU runtime in Google Colab.
  ## Objectives
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 Please find the [Bike Sharing dataset](./day.csv) here and [Data dictionary](./Data%20dictionary.txt) here.
