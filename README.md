@@ -64,22 +64,12 @@ The primary objective of this assignment is to develop a custom convolutional ne
 - augmentor : 0.2.12
 
 ## Conclusions
-**From the Exploratory Data Analysis , we can conclude the following -**
-- Bike rental counts are lowest in spring and highest in fall, with summer showing significantly peak rentals.
-- There was an increase in bike rentals in 2019 compared to 2018.
-- Data for heavy_snow_rain weather situations is missing, potentially affecting analysis of extreme weather impacts.
-- Bike rentals peak in June, July, and September, with lower counts in January.
-- More bike rentals occur on working days compared to non-working days.
-- Rental counts are higher on non-holidays compared to holidays.
-- Rental demand remains consistent across all weekdays.
-- Favorable weather "Clear Sky" correlates with higher rental counts, while poor weather "Light snowy rain" correlates with lower counts. There is no occurance for "Heavy snowy rain".
-- Strong positive correlations exist between temperature (temp/atemp) and rental counts.
-- Registered users show a strong positive correlation with rental counts.
-- Casual users also positively correlate with rental counts, though less strongly than registered users.
-- Humidity and windspeeds show weak correlations with rental counts and other variables.
-- Humidity and windspeeds show weak correlations with rental counts and other variables.
-- Bike rentals increase from March to June and decrease towards the end of the year.
-- Higher temperatures (temp/atemp) positively influence rental counts.
+**Based on the model comparison and evaluation, the following insights can be drawn: -**
+- Model 8 (Base Model + Augmented Layers + Balanced Class + Controlled LR + More Layers + Less Dropouts) achieved the best overall performance with the highest validation accuracy (0.68) and test accuracy (0.47). This suggests that optimizing dropout rates and balancing the class distribution improves model generalization.
+- Model 4 (Base Model + Augmented Layers + Balanced Class + Controlled LR) and Model 5 (Base Model + Augmented Layers + Balanced Class + Increased / Controlled LR) both show competitive results, with test accuracies of 0.43. These models effectively address class imbalance and fine-tune the learning rate.
+- Model 6 (Base Model + Augmented Layers + Balanced Class + Controlled LR + More Epochs) achieved better training accuracy (0.65) but slightly lower test accuracy (0.42), indicating potential overfitting as the model learned too well on the training data.
+- Base Models (1, 2, 3) show lower test accuracies, especially Model 1 which had high training accuracy (0.84) but low generalization on the test set (0.31), demonstrating severe overfitting without any regularization techniques.
+- Overall, applying data augmentation, class balancing, learning rate control, dropout optimization, and deeper architectures significantly enhanced the performance of the CNN models for melanoma detection, with Model 8 emerging as the most balanced in terms of validation and test performance. Further optimization could continue to improve this performance.
 
 **Q :- Which class has the least number of samples?
 Answer - seborrheic keratosis has the least number of samples - 77
