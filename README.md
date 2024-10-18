@@ -47,24 +47,14 @@ The primary objective of this assignment is to develop a custom convolutional ne
 
 - Step 1: Import Necessary Libraries
 - Step 2: Load the Data and Understanding the Data
-- Step 3: Data Cleaning and Missing Value Check
-- Step 4: Segmentation of Columns
-- Step 5: Exploratory Data Analysis (EDA)
--- Univariate Analysis (One Variable at a Time)
--- Bivariate Analysis (Two Variables at a Time)
--- Multivariate Analysis (More Than Two Variables at a Time)
-- Step 6: Data Preparation Steps
--- Dummy Variable Creation (One Hot Encoding)
-- Step 7: Train-Test Split
-- Step 8: Feature Scaling (Min-Max Scaling / Normalization)
-- Step 9: Building the Initial Linear Model (Model 0)
-- Step 10: Feature Selection (Using RFE and Manual Selection Methods)
-- Step 11: Check and Build the Models Using Selected Features
-- Step 12: Residual Analysis of the Train Data
-- Step 13: Making Predictions Using the Final Linear Model
-- Step 14: Steps for Further Model Refinement and Optimization
-- Step 15: Model Evaluation
-
+- Step 3: Data Preparation Steps - Train-Validation Split and Test Set
+- Step 4: Building the Initial Model (Model 1)
+- Step 5: Data Augmentation - Build Model after Applying Augmentation
+- Step 6: Fix Class Imbalance and Build the Model
+- Step 7: Fine-tune and Optimize the Model
+- Step 8: Making Predictions Using the Models
+- Step 9: Conclusion
+  
 ## Technologies/Libraries Used
 - numpy : 1.26.4
 - pandas : 2.2.2
