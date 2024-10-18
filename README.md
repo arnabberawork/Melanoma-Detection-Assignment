@@ -96,17 +96,21 @@ Answer - pigmented benign keratosis dominates the data in terms proportionate nu
 
 ## Glossary
 
-- Data Visualization
-- EDA (Exploratory Data Analysis)
-- Feature Scaling (Normalization)
-- Dummy Variable (One Hot Encoding)
-- Linear Regression
-- p-value and Confidence Interval
-- Coefficient of Determination (R²) and Adjusted R²
-- Mean Squared Error (MSE) and Root Mean Squared Error (RMSE)
-- Cross-Validation
-- Multicollinearity
-- Residuals Analysis
+- Data Augmentation
+- Class Imbalance
+- Train-Validation Split
+- Test Set
+- Convolutional Neural Network (CNN)
+- Dropout
+- Learning Rate (LR)
+- Overfitting
+- Early Stopping
+- Cross-Entropy Loss
+- Accuracy
+- Batch Normalization
+- Max Pooling
+- Softmax
+- Learning Rate Scheduler (ReduceLROnPlateau)
 
 ## Author
 * [Arnab Bera]( https://www.linkedin.com/in/arnabbera1994/ )
