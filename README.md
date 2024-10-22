@@ -65,10 +65,10 @@ The primary objective of this assignment is to develop a custom convolutional ne
 
 ## Conclusions
 **Based on the model comparison and evaluation, the following insights can be drawn: -**
-- Model 8 (Base Model + Augmented Layers + Balanced Class + Controlled LR + More Layers + Less Dropouts) achieved the best overall performance with the highest validation accuracy (0.68) and test accuracy (0.47). This suggests that optimizing dropout rates and balancing the class distribution improves model generalization.
-- Model 4 (Base Model + Augmented Layers + Balanced Class + Controlled LR) and Model 5 (Base Model + Augmented Layers + Balanced Class + Increased / Controlled LR) both show competitive results, with test accuracies of 0.43. These models effectively address class imbalance and fine-tune the learning rate.
-- Model 6 (Base Model + Augmented Layers + Balanced Class + Controlled LR + More Epochs) achieved better training accuracy (0.65) but slightly lower test accuracy (0.42), indicating potential overfitting as the model learned too well on the training data.
-- Base Models (1, 2, 3) show lower test accuracies, especially Model 1 which had high training accuracy (0.84) but low generalization on the test set (0.31), demonstrating severe overfitting without any regularization techniques.
+- Model 9 (Ten Convolution Layers + Augmented Layers + Balanced Class + Dropouts + Batch Normalization + Controlled LR) achieved the highest overall performance, with a validation accuracy of 0.73 and a test accuracy of 0.50. The combination of more layers, dropout regularization, and controlled learning rates made this model the best at generalizing to unseen data.
+- Models 4 and 5 had moderate performance, achieving validation accuracies of 0.70 and 0.65, respectively, with a test accuracy of 0.45. These models underline the importance of deeper architectures and more sophisticated regularization techniques for achieving better results
+- Base Models (1, 2, 3) suffered from overfitting, especially Model 1, which had a high training accuracy (0.91) but very low test accuracy (0.33). This confirms that deeper architectures with data augmentation and dropout regularization are essential for better generalization.
+- In summary, deeper convolutional models with controlled learning rates, batch normalization, and dropout regularization, like Model 9, performed the best. While more epochs can help in training accuracy (Model 10), they do not always lead to better test performance.
 - Overall, applying data augmentation, class balancing, learning rate control, dropout optimization, and deeper architectures significantly enhanced the performance of the CNN models for melanoma detection, with Model 8 emerging as the most balanced in terms of validation and test performance. Further optimization could continue to improve this performance.
 
 **Q :- Which class has the least number of samples?
@@ -82,7 +82,7 @@ Answer - pigmented benign keratosis dominates the data in terms proportionate nu
 
 - The project reference course materieals from upGrads curriculm .
 - The project references from presentation in upgrad live class given by [Shivam Garg]( https://www.linkedin.com/in/shivam-garg-0494a2ab )
-- The project references insights and inferences from presentation in upgrad live class given by [Akashdeep Makkar]( https://www.linkedin.com/in/akashdeep-makkar-12110880/ )
+- The project references insights and inferences from presentation in upgrad live class given by [Sivaram A.](https://www.linkedin.com/in/siva-ak/)
 
 ## Glossary
 
@@ -103,4 +103,4 @@ Answer - pigmented benign keratosis dominates the data in terms proportionate nu
 - Learning Rate Scheduler (ReduceLROnPlateau)
 
 ## Author
-* [Arnab Bera]( https://www.linkedin.com/in/arnabbera1994/ )
+* [Arnab Bera](https://www.linkedin.com/in/arnabbera-tech/)
